@@ -1,5 +1,5 @@
-﻿/* glue: 0.9.2 hash: 05fde7410b */
-.sprite-icons-stackoverflow,.sprite-icons-speakerdeck,.sprite-icons-location,.sprite-icons-linkedin,.sprite-icons-googlecode,.sprite-icons-github,.sprite-icons-email,.sprite-icons-coderwall,.sprite-icons-bitbucket{
+﻿/* glue: 0.9.2 hash: 413e31e8ac */
+.sprite-icons-stackoverflow,.sprite-icons-speakerdeck,.sprite-icons-medium,.sprite-icons-location,.sprite-icons-linkedin,.sprite-icons-googlecode,.sprite-icons-github,.sprite-icons-email,.sprite-icons-coderwall,.sprite-icons-bitbucket{
     background-image:url('../img/icons.png');
     background-repeat:no-repeat;
 }
@@ -16,44 +16,50 @@
     height:32px;
 }
 
-.sprite-icons-location{
+.sprite-icons-medium{
     background-position:0 -32px;
     width:32px;
     height:32px;
 }
 
-.sprite-icons-linkedin{
+.sprite-icons-location{
     background-position:-32px -32px;
     width:32px;
     height:32px;
 }
 
-.sprite-icons-googlecode{
+.sprite-icons-linkedin{
     background-position:-64px 0;
     width:32px;
     height:32px;
 }
 
-.sprite-icons-github{
+.sprite-icons-googlecode{
     background-position:-64px -32px;
     width:32px;
     height:32px;
 }
 
-.sprite-icons-email{
+.sprite-icons-github{
     background-position:0 -64px;
     width:32px;
     height:32px;
 }
 
-.sprite-icons-coderwall{
+.sprite-icons-email{
     background-position:-32px -64px;
     width:32px;
     height:32px;
 }
 
-.sprite-icons-bitbucket{
+.sprite-icons-coderwall{
     background-position:-64px -64px;
+    width:32px;
+    height:32px;
+}
+
+.sprite-icons-bitbucket{
+    background-position:-96px 0;
     width:32px;
     height:32px;
 }
@@ -62,6 +68,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0),screen and (-o-min-device-pixel-ratio: 100/100),screen and (min-device-pixel-ratio: 1.0),screen and (min-resolution: 1.0dppx){
     .sprite-icons-stackoverflow, 
     .sprite-icons-speakerdeck, 
+    .sprite-icons-medium, 
     .sprite-icons-location, 
     .sprite-icons-linkedin, 
     .sprite-icons-googlecode, 
@@ -71,15 +78,16 @@
     .sprite-icons-bitbucket
     {
         background-image:url('../img/icons.png');
-        -webkit-background-size: 96px 96px;
-        -moz-background-size: 96px 96px;
-        background-size: 96px 96px;
+        -webkit-background-size: 128px 96px;
+        -moz-background-size: 128px 96px;
+        background-size: 128px 96px;
     }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2.0), screen and (min--moz-device-pixel-ratio: 2.0),screen and (-o-min-device-pixel-ratio: 200/100),screen and (min-device-pixel-ratio: 2.0),screen and (min-resolution: 2.0dppx){
     .sprite-icons-stackoverflow, 
     .sprite-icons-speakerdeck, 
+    .sprite-icons-medium, 
     .sprite-icons-location, 
     .sprite-icons-linkedin, 
     .sprite-icons-googlecode, 
@@ -89,8 +97,8 @@
     .sprite-icons-bitbucket
     {
         background-image:url('../img/icons@2x.png');
-        -webkit-background-size: 96px 96px;
-        -moz-background-size: 96px 96px;
-        background-size: 96px 96px;
+        -webkit-background-size: 128px 96px;
+        -moz-background-size: 128px 96px;
+        background-size: 128px 96px;
     }
 }

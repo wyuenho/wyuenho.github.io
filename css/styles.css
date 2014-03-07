@@ -95,6 +95,15 @@ section {
   background-color: #cfd3d3;
 }
 
+section h2,
+section h3 {
+  margin: 10px 0;
+}
+
+section p {
+  margin: 10px 0;
+}
+
 .references {
   list-style: none;
   margin: 0;

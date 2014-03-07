@@ -55,13 +55,6 @@ h6 > a {
   text-decoration: none;
 }
 
-h1 > a:hover:after {
-  content: " §";
-  font-size: 0.8em;
-  vertical-align: top;
-  color: #999;
-}
-
 h1 > a:hover,
 h1 > a:focus {
   text-decoration: none;
@@ -74,7 +67,7 @@ header {
   background-color: #8cb9b2;
 }
 
-header > .avatar {
+header .avatar {
   float: left;
   margin-right: 20px;
 }
@@ -89,6 +82,31 @@ header > h1 {
 
 header > p {
   margin: 0.67em 0;
+}
+
+.contact {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.contact > li {
+  margin: 15px 0;
+}
+
+.references {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.references > li {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 section {
@@ -106,17 +124,6 @@ section p {
   margin: 10px 0;
 }
 
-.references {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-.references > li {
-  display: inline;
-}
-
 .achievements .year,
 .professional-history .tenure,
 .education .duration {
@@ -126,13 +133,33 @@ section p {
 [class^=sprite-icons-] {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 5px;
 }
 
-@media (min-width: 320px) {
-  
+@media (max-width: 568px) {
+  header, section {
+    padding: 15px;
+  }
+
+  header .avatar {
+    display: none;
+  }
+
+  header > h1 {
+    font-size: 35px;
+    line-height: 1.4em;
+    vertical-align: middle;
+  }
 }
 
-@media (min-width: 768px) {
-  
+@media (min-width: 569px) and (max-width: 767px) {
+  header .avatar {
+    width: 25%;
+    height: 25%;
+  }
+}
+
+@media (max-width: 959px) {
+  #main {
+    width: 100%;
+  }
 }

@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'clear_sans_thinregular';
-  src: url('../fonts/ClearSans-Thin-webfont.eot');
-  src: url('../fonts/ClearSans-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/ClearSans-Thin-webfont.woff') format('woff'),
-  url('../fonts/ClearSans-Thin-webfont.ttf') format('truetype'),
-  url('../fonts/ClearSans-Thin-webfont.svg#clear_sans_thinregular') format('svg');
+  font-family: 'clear-sans-thin-regular';
+  src: url('../fonts/ClearSans-Thin.eot');
+  src: url('../fonts/ClearSans-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ClearSans-Thin.woff') format('woff'),
+       url('../fonts/ClearSans-Thin.ttf') format('truetype'),
+       url('../fonts/ClearSans-Thin.svg#clear-sans-thin-regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +20,8 @@
 }
 
 body {
-  font-family: clear_sans_thinregular, sans-serif;
+  font-family: clear-sans-thin-regular, sans-serif;
+  font-weight: 200;
   font-size: 18px;
   line-height: 1.5em;
   padding-bottom: 50px;
@@ -42,6 +43,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3em;
   text-shadow: #dedede 1px 1px;
+  font-weight: 200;
 }
 
 h1 > a,
@@ -125,4 +127,12 @@ section p {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+@media (min-width: 320px) {
+  
+}
+
+@media (min-width: 768px) {
+  
 }

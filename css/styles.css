@@ -24,7 +24,6 @@ body {
   font-weight: 200;
   font-size: 18px;
   line-height: 1.5em;
-  padding-bottom: 50px;
   background-color: #27777e;
   text-rendering: optimizeLegibility;
 }
@@ -109,10 +108,38 @@ header > p {
   margin-bottom: 5px;
 }
 
+footer {
+  padding: 10px;
+  overflow: auto;
+}
+
+footer > a.email {
+  margin-top: 5px;
+  float: left;
+  color: #f4eee2;
+}
+
+footer > a.email:focus,
+footer > a.email:hover {
+  color: #8cb9b2;
+}
+
+footer .references {
+  float: right;
+  display: inline-block;
+}
+
 section {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #cfd3d3;
+}
+
+section h1 {
+  color: #27777e;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #27777e;
+  margin-top: 8px;
 }
 
 section h2,
@@ -133,6 +160,16 @@ section p {
 [class^=sprite-icons-] {
   display: inline-block;
   vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+  footer > a.email {
+    margin-right: 10px;
+  }
+
+  footer .references {
+    float: left;
+  }
 }
 
 @media (max-width: 568px) {

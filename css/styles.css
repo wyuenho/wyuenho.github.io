@@ -137,8 +137,8 @@ section {
 
 section h1 {
   color: #27777e;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #27777e;
+  padding: 0 4px 8px 4px;
+  border-bottom: 1px dotted #27777e;
   margin-top: 8px;
 }
 
